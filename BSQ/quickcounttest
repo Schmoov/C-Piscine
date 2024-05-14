@@ -1,0 +1,27 @@
+/*
+int	main(int c, char** v)
+{
+	int		x = 5;
+	int		y = 4;
+	int		i = 0;
+	int		j = 0;
+
+	char	**grid;
+	int		**mat;
+
+	grid = (char **)malloc((y + 1) * sizeof(char *));
+	grid[y] = NULL;
+
+	while (j < y)
+		grid[j++] = (char *)malloc((x + 1) * sizeof(char));
+	fill_grid_with_empty(grid, x, y, '.');
+	grid[0][2] = 'o';
+	grid[1][1] = 'o';
+	grid[1][4] = 'o';
+	grid[2][2] = 'o';
+	grid[3][0] = 'o';
+	print_grid(grid);
+	mat = magic_trick(grid, x, y, ".ox");
+	print_mat(mat, x, y);
+	printf("il y a %d obs dans le carre de coord %d %d et de longueur %d", nb_obs_square(mat, atoi(v[1]), atoi(v[2]), atoi(v[3])), atoi(v[1]), atoi(v[2]), atoi(v[3]));
+}*/
